@@ -1,6 +1,6 @@
-from sqlalchemy.orm import Session
-from schemas.jobs import JobCreate
 from db.models.jobs import Job
+from schemas.jobs import JobCreate
+from sqlalchemy.orm import Session
 
 
 def create_new_job(job: JobCreate, db: Session, owner_id: int):
@@ -14,4 +14,3 @@ def create_new_job(job: JobCreate, db: Session, owner_id: int):
 def retreive_job(id: int, db: Session):
     item = db.query(Job).filter(Job.id == id).first()  # select * from job where id = 1;
     return item
-

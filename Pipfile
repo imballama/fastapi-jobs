@@ -12,6 +12,7 @@ python-dotenv = "*"
 pydantic = {extras = ["email"], version = "*"}
 passlib = {extras = ["bcrypt"], version = "*"}
 pytest = "*"
+pre-commit = "*"
 
 [dev-packages]
 
