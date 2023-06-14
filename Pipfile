@@ -13,6 +13,7 @@ pydantic = {extras = ["email"], version = "*"}
 passlib = {extras = ["bcrypt"], version = "*"}
 pytest = "*"
 pre-commit = "*"
+python-jose = "*"
 
 [dev-packages]
 
