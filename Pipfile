@@ -14,6 +14,7 @@ passlib = {extras = ["bcrypt"], version = "*"}
 pytest = "*"
 pre-commit = "*"
 python-jose = "*"
+python-multipart = "*"
 
 [dev-packages]
 
