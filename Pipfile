@@ -11,6 +11,7 @@ psycopg2-binary = "*"
 python-dotenv = "*"
 pydantic = {extras = ["email"], version = "*"}
 passlib = {extras = ["bcrypt"], version = "*"}
+pytest = "*"
 
 [dev-packages]
 
